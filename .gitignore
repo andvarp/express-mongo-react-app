@@ -1,5 +1,5 @@
 # Avoid commit keys to repo
-keys.js
+dev.js
 
 
 # Created by https://www.gitignore.io/api/node,macos

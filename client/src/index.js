@@ -8,8 +8,6 @@ import reduxThunk from 'redux-thunk';
 
 import App from './components/App';
 
-
-
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
 ReactDOM.render(
@@ -18,3 +16,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+console.log(`stripekey is ${process.env.REACT_APP_STRIPE_KEY}`);
+console.log(`env is ${process.env.NODE_ENV}`);
